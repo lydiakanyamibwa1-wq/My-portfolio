@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lydia Kanyamibwa — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Lydia<span>.</span></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="floating-shape shape1"></div>
+    <div class="floating-shape shape2"></div>
+    <div class="floating-shape shape3"></div>
+
+    <div class="hero-text">
+      <h1>Build Your <br><span>Awesome Platform</span></h1>
+      <p>
+        I’m Lydia Kanyamibwa, a passionate beginner developer exploring
+        <b>Web Development & IoT</b>. My mission is to build creative, user-friendly,
+        and smart digital experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn">Our Services <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="Image/My photo.jpg.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I am a beginner software developer exploring <b>HTML, CSS, JavaScript</b>, and IoT. 
+        I love building small projects to practice and showcase my skills.  
+        Beyond coding, I enjoy collaborating, sharing knowledge, and solving real-world problems with technology.
+      </p>
+      <p>
+        My vision is to become a full-stack developer and contribute to tech communities in Africa and beyond.
+      </p>
+    </div>
+    <div class="about-img">
+      <img src="Image/istockphoto-1990924842-1024x1024.jpg" alt="Coding Illustration">
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="grid-3">
+      <div class="card"><i class="fab fa-html5"></i><h3>HTML</h3><p>Semantic and accessible markup.</p></div>
+      <div class="card"><i class="fab fa-css3-alt"></i><h3>CSS</h3><p>Modern layouts & responsive design.</p></div>
+      <div class="card"><i class="fab fa-js"></i><h3>JavaScript</h3><p>Dynamic and interactive apps.</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid-3">
+      <div class="card project">
+        <i class="fas fa-clock"></i>
+        <h3>Digital Clock</h3>
+        <div class="project-box"><p id="clock"></p></div>
+      </div>
+      <div class="card project">
+        <i class="fas fa-quote-right"></i>
+        <h3>Quote Generator</h3>
+        <div class="project-box">
+          <p id="quote">Click button for quote</p>
+          <button onclick="newQuote()">New Quote</button>
+        </div>
+      </div>
+      <div class="card project">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio showcasing skills, projects & contact info.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training -->
+  <section id="training" class="alt-bg">
+    <h2>Where I Am Learning From</h2>
+    <div class="grid-3">
+      <div class="card"><i class="fas fa-graduation-cap"></i><h3><a href="https://www.udemy.com/" target="_blank">Udemy</a></h3></div>
+      <div class="card"><i class="fas fa-laptop-code"></i><h3><a href="https://klab.rw/" target="_blank">kLab Rwanda</a></h3></div>
+      <div class="card"><i class="fas fa-users"></i><h3><a href="https://www.alxafrica.com/" target="_blank">ALX Rwanda</a></h3></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="grid-3">
+      <div class="card"><i class="fas fa-code"></i><h3>Web Development</h3><p>Modern responsive websites.</p></div>
+      <div class="card"><i class="fas fa-microchip"></i><h3>IoT Projects</h3><p>Prototyping and automation.</p></div>
+      <div class="card"><i class="fas fa-chalkboard-teacher"></i><h3>Mentorship</h3><p>Guidance for beginners in coding.</p></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-cards">
+      <div class="contact-card"><i class="fas fa-phone"></i><p>+250 786 391 776</p></div>
+      <div class="contact-card"><i class="fas fa-envelope"></i><p>lydiakanyamibwa1@gmail.com</p></div>
+      <div class="contact-card"><i class="fab fa-twitter"></i><p>@LydiaK</p></div>
+      <div class="contact-card"><i class="fab fa-github"></i><p><a href="https://github.com/KanyamibwaLy" target="_blank">kanyamibwaly</a></p></div>
+    </div>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Lydia Kanyamibwa | Built with ❤️ | Follow me on <a href="https://twitter.com" target="_blank">Twitter</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
