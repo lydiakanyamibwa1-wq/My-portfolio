@@ -1,0 +1,9 @@
+title: My Portfolio
+description: My personal portfolio site. 
+baseurl: "/My-portfolio" 
+url: "https://lydiakanyamibwa1-wq.github.io" 
+
+remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
